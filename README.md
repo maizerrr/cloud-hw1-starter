@@ -13,3 +13,8 @@ class at Columbia University and New York University.
 3. Open `chat.html` in any browser.
 4. Start sending messages to test the chatbot interaction.
 
+## openAPI ##
+
+1. Setup API on aws by importing `swagger.js`.
+2. Enable CORS.
+3. Create corresponding lambda function.
