@@ -26,8 +26,15 @@ $(document).ready(function() {
   }
 
   function callChatbotApi(message) {
+    // get or generate session id
+    if (!sessionStorage.getItem("sessionId")) {
+      sessionId = Math.random().toString(36).substring(2,9)
+      sessionStorage.setItem("sessionId", sessionId)
+    }
+
     // params, body, additionalParams
     return sdk.chatbotPost({}, {
+      sessionId: sessionStorage.getItem("sessionId"),
       messages: [{
         type: 'unstructured',
         unstructured: {

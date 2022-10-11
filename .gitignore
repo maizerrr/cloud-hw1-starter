@@ -1,1 +1,3 @@
-.DS_Store
+*.DS_Store
+yelp_data/yelp_api.json
+yelp_data/yelp-restaurants.json

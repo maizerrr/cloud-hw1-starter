@@ -1,9 +1,16 @@
 # Chatbot Concierge #
 
+## Team Members ##
+Daolong Liu (dl3515)
+Yuming Tian (yt2777)
+
 ## About ##
 
 Frontend starter repository for HW 1 of the Cloud Computing & Big Data
 class at Columbia University and New York University.
+
+Frontend Demo:
+<a href="http://6998.hw1.web.s3-website-us-west-1.amazonaws.com/">http://6998.hw1.web.s3-website-us-west-1.amazonaws.com/</a>
 
 ## Usage ##
 
